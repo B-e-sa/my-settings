@@ -1,0 +1,66 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "nest",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "[ruby]": {
+        "editor.defaultFormatter": "misogi.ruby-rubocop"
+    },
+    "workbench.colorTheme": "Andromeda Italic Bordered",
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+    },
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "[Andromeda Italic Bordered]": {
+            "comments": "#9e9e9e",
+            "functions": "#ffa597",
+            "keywords": "#e6f2ff",
+            "numbers": "#f1b9ff",
+            "textMateRules": [
+                {
+                    "scope": "entity.name.type.class",
+                    "settings": {
+                        "foreground": "#ffa6e3"
+                    }
+                },
+                {
+                    "scope": "constant.numeric.decimal",
+                    "settings": {
+                        "foreground": "#98c4ff"
+                    }
+                },
+                {
+                    "scope": [
+                        "string.quoted.double",
+                        "string.quoted.single"
+                    ],
+                    "settings": {
+                        "foreground": "#9ad8ff"
+                    }
+                },
+                {
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "foreground": "#f9bcff"
+                    }
+                },
+                {
+                    "scope": "punctuation.definition.block.ts",
+                    "settings": {
+                        "foreground": "#ff9971"
+                    }
+                },
+            ],
+            "strings": "#ff8d6e",
+            "types": "#42c3ff",
+            "variables": "#43bdff"
+        }
+    },
+    "editor.cursorStyle": "underline",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "security.workspace.trust.untrustedFiles": "open",
+}
